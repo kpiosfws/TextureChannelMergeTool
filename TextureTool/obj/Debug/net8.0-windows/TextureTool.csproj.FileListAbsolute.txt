@@ -1,0 +1,16 @@
+C:\D\cpp\TextureTool\TextureTool\bin\Debug\net8.0-windows\TextureTool.exe
+C:\D\cpp\TextureTool\TextureTool\bin\Debug\net8.0-windows\TextureTool.deps.json
+C:\D\cpp\TextureTool\TextureTool\bin\Debug\net8.0-windows\TextureTool.runtimeconfig.json
+C:\D\cpp\TextureTool\TextureTool\bin\Debug\net8.0-windows\TextureTool.dll
+C:\D\cpp\TextureTool\TextureTool\bin\Debug\net8.0-windows\TextureTool.pdb
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.Form1.resources
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.csproj.GenerateResource.cache
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.AssemblyInfoInputs.cache
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.AssemblyInfo.cs
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.csproj.CoreCompileInputs.cache
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.dll
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\refint\TextureTool.dll
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.pdb
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\TextureTool.genruntimeconfig.cache
+C:\D\cpp\TextureTool\TextureTool\obj\Debug\net8.0-windows\ref\TextureTool.dll

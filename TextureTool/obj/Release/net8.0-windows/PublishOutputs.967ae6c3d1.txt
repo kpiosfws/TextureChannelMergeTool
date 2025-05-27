@@ -1,0 +1,5 @@
+C:\D\Github\Build\TextureTool.exe
+C:\D\Github\Build\TextureTool.dll
+C:\D\Github\Build\TextureTool.deps.json
+C:\D\Github\Build\TextureTool.runtimeconfig.json
+C:\D\Github\Build\TextureTool.pdb

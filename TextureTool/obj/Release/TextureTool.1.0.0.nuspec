@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TextureTool</id>
+    <version>1.0.0</version>
+    <authors>TextureTool</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\D\cpp\TextureTool\TextureTool\bin\Release\net8.0-windows\TextureTool.runtimeconfig.json" target="lib\net8.0-windows7.0\TextureTool.runtimeconfig.json" />
+    <file src="C:\D\cpp\TextureTool\TextureTool\bin\Release\net8.0-windows\TextureTool.dll" target="lib\net8.0-windows7.0\TextureTool.dll" />
+  </files>
+</package>
