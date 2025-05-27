@@ -7,10 +7,7 @@ RGBA 通道合成工具（WinForms）
 每张图片可选择提取的通道（Red / Green / Blue / Alpha）
 使用 LockBits + unsafe 优化图像处理性能
 
-C#
-.NET 8 / WinForms
-GDI+（System.Drawing）
-Visual Studio
+C# .NET 8 / WinForms
 
 使用
 
