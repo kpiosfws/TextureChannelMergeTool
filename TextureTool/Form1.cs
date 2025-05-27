@@ -11,11 +11,16 @@ namespace TextureTool
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            //comboAlphaChannel.Items.AddRange(new string[] { "Red", "Green", "Blue", "Alpha", "Grayscale" });
-            comboAlphaChannel.SelectedIndex = 0; // Ä¬ÈÏÑ¡ Red
+            comboAlphaChannel.SelectedIndex = 0; 
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
             comboBox3.SelectedIndex = 0;
+
+            comboAlphaChannel.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
+
             RGB_picture.AllowDrop = true;
             R_picture.AllowDrop = true;
             G_picture.AllowDrop = true;
@@ -448,5 +453,6 @@ namespace TextureTool
                 }
             }
         }
+
     }
 }
