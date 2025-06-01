@@ -1,5 +1,6 @@
 using System.Drawing.Imaging;
 using System.Windows.Forms;
+using System.IO;
 
 namespace TextureTool
 {
@@ -128,6 +129,18 @@ namespace TextureTool
 
             if (sfd.ShowDialog() == DialogResult.OK)
             {
+                if (File.Exists(sfd.FileName))
+                {
+                    try
+                    {
+                        File.Delete(sfd.FileName);
+                    }
+                    catch (IOException ex)
+                    {
+                        MessageBox.Show("无法覆盖已有文件，可能图片正在被打开。\n\n" + ex.Message);
+                        return;
+                    }
+                }
                 resultImage.Save(sfd.FileName, ImageFormat.Png);
                 MessageBox.Show("图片已保存到：" + sfd.FileName);
             }
@@ -248,6 +261,18 @@ namespace TextureTool
 
             if (sfd.ShowDialog() == DialogResult.OK)
             {
+                if (File.Exists(sfd.FileName))
+                {
+                    try
+                    {
+                        File.Delete(sfd.FileName);
+                    }
+                    catch (IOException ex)
+                    {
+                        MessageBox.Show("无法覆盖已有文件，可能图片正在被打开。\n\n" + ex.Message);
+                        return;
+                    }
+                }
                 result.Save(sfd.FileName, ImageFormat.Png);
                 MessageBox.Show("已保存：" + sfd.FileName);
             }
